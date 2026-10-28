@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'none'; img-src 'self' data:; base-uri 'self'; form-action 'none'">
+  <title>S3 Bucket Lens</title>
+  <script src="theme.js"></script>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="dashboard.css">
+  <script defer src="icons.js"></script>
+  <script defer src="dashboard.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand"><span class="brand-mark"><i data-lucide="database"></i></span><div><strong>S3 Bucket Lens</strong><div class="muted">Storage intelligence</div></div><span class="badge">LOCAL SNAPSHOT</span></div>
+    <div class="header-meta"><span class="status-dot"></span><span id="snapshot-time">Loading snapshot</span><span id="demo-badge" class="badge warning" hidden>DEMO DATA</span><div class="theme-picker" role="group" aria-label="Colour theme"><button class="icon-button" data-theme-option="system" aria-label="Use system theme" title="Use system theme"><i data-lucide="monitor"></i></button><button class="icon-button" data-theme-option="light" aria-label="Use light theme" title="Use light theme"><i data-lucide="sun"></i></button><button class="icon-button" data-theme-option="dark" aria-label="Use dark theme" title="Use dark theme"><i data-lucide="moon"></i></button></div></div>
+  </header>
+  <main>
+    <section class="bucket-heading">
+      <div><p class="eyebrow">BUCKET OVERVIEW</p><h1 id="bucket-name">S3 Bucket Lens</h1><div id="bucket-meta" class="muted"></div></div>
+      <a class="button" href="prefixes.csv" download><i data-lucide="download"></i>Export CSV</a>
+    </section>
+    <div id="error" role="alert" hidden></div>
+    <section id="cost-summary" class="cost-summary" aria-label="Storage cost estimates in USD"></section>
+    <section id="metrics" class="metrics" aria-label="Bucket metrics"></section>
+    <div id="warnings" class="warnings" hidden></div>
+    <nav class="tabs" aria-label="Report views">
+      <button class="tab active" data-tab="explorer" aria-current="page"><i data-lucide="folder-tree"></i>Directory tree</button>
+      <button class="tab" data-tab="lifecycle"><i data-lucide="repeat-2"></i>Lifecycle rules<span id="rule-count" class="count">0</span></button>
+      <button class="tab" data-tab="insights"><i data-lucide="chart-no-axes-combined"></i>Storage insights</button>
+    </nav>
+    <section id="explorer" class="view">
+      <div class="section-heading"><div><h2>Bucket directory</h2><div id="breadcrumb" class="breadcrumb" aria-label="Directory breadcrumb"></div></div><div class="tree-actions"><span id="directory-count" class="muted"></span><button id="collapse-all" class="button"><i data-lucide="list-collapse"></i>Collapse all</button></div></div>
+      <div class="toolbar">
+        <label class="search"><i data-lucide="search"></i><input id="search" type="search" aria-label="Filter this page" placeholder="Filter this page" autocomplete="off"></label>
+        <label class="sort">Sort by <select id="sort"><option value="cost">Monthly cost</option><option value="name">Folder name</option></select></label>
+        <button id="up" class="icon-button" aria-label="Parent directory" title="Parent directory"><i data-lucide="corner-left-up"></i></button>
+      </div>
+      <p class="review-key">Monthly cost priority: <span class="review-status green">Routine up to US$5</span><span class="review-status amber">Review above US$5</span><span class="review-status red">Investigate above US$20</span><span>Unpriced storage and incomplete uploads need review.</span></p>
+      <div class="table-scroll"><table role="treegrid" aria-label="S3 directory tree"><thead><tr><th scope="col">Directory</th><th scope="col">Cost review</th><th scope="col" class="number">Monthly cost</th><th scope="col" class="number">Storage</th><th scope="col" class="number">Files</th><th scope="col" class="number">Delete markers</th><th scope="col">Last modified</th></tr></thead><tbody id="directory-rows"><tr><td colspan="7" class="empty">Loading directories...</td></tr></tbody></table></div>
+      <div class="pagination"><span id="page-label" class="muted"></span><div><button id="previous" class="icon-button" aria-label="Previous page" title="Previous page"><i data-lucide="chevron-left"></i></button><button id="next" class="icon-button" aria-label="Next page" title="Next page"><i data-lucide="chevron-right"></i></button></div></div>
+      <section id="detail" class="detail" aria-label="Selected directory" hidden></section>
+    </section>
+    <section id="lifecycle" class="view" hidden><div class="section-heading"><h2>Lifecycle rules</h2><span class="muted">Bucket configuration at extraction</span></div><div id="lifecycle-rules"></div></section>
+    <section id="insights" class="view" hidden><div class="section-heading"><h2>Storage insights</h2><span class="muted">All retained versions</span></div><div class="insight-layout"><section><h3>Storage class distribution</h3><div id="storage-chart"></div></section><section><h3>Review queue</h3><div id="review-queue"></div></section></div></section>
+    <footer><span id="pricing-source"></span><span>Storage-only estimate in USD. Not an AWS invoice.</span></footer>
+  </main>
+</body>
+</html>

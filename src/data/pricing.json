@@ -1,0 +1,727 @@
+{
+  "currency": "USD",
+  "generated_at": "2026-10-19T09:58:17.356755+00:00",
+  "regions": {
+    "af-south-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.0119,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.0274,
+        "STANDARD_IA": 0.0149
+      },
+      "region": "af-south-1",
+      "retrieved_at": "2026-10-19T09:57:52.082361+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/af-south-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/af-south-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/af-south-1/index.json"
+      ]
+    },
+    "ap-east-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-east-1",
+      "retrieved_at": "2026-10-19T09:57:52.233322+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-east-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-east-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-east-1/index.json"
+      ]
+    },
+    "ap-east-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.0099,
+        "REDUCED_REDUNDANCY": 0.02376,
+        "STANDARD": 0.0225,
+        "STANDARD_IA": 0.01242
+      },
+      "region": "ap-east-2",
+      "retrieved_at": "2026-10-19T09:57:52.381189+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-east-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-east-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-east-2/index.json"
+      ]
+    },
+    "ap-northeast-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-northeast-1",
+      "retrieved_at": "2026-10-19T09:57:52.547301+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-northeast-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-northeast-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-northeast-1/index.json"
+      ]
+    },
+    "ap-northeast-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.0251,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-northeast-2",
+      "retrieved_at": "2026-10-19T09:57:52.701209+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-northeast-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-northeast-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-northeast-2/index.json"
+      ]
+    },
+    "ap-northeast-3": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-northeast-3",
+      "retrieved_at": "2026-10-19T09:57:52.863943+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-northeast-3/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-northeast-3/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-northeast-3/index.json"
+      ]
+    },
+    "ap-south-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-south-1",
+      "retrieved_at": "2026-10-19T09:57:53.024246+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-south-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-south-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-south-1/index.json"
+      ]
+    },
+    "ap-south-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-south-2",
+      "retrieved_at": "2026-10-19T09:57:53.188313+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-south-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-south-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-south-2/index.json"
+      ]
+    },
+    "ap-southeast-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-southeast-1",
+      "retrieved_at": "2026-10-19T09:57:53.344301+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-southeast-1/index.json"
+      ]
+    },
+    "ap-southeast-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-southeast-2",
+      "retrieved_at": "2026-10-19T09:57:54.463017+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-southeast-2/index.json"
+      ]
+    },
+    "ap-southeast-3": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-southeast-3",
+      "retrieved_at": "2026-10-19T09:57:55.338142+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-3/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-3/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-southeast-3/index.json"
+      ]
+    },
+    "ap-southeast-4": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.011,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ap-southeast-4",
+      "retrieved_at": "2026-10-19T09:57:56.411397+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-4/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-4/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-southeast-4/index.json"
+      ]
+    },
+    "ap-southeast-5": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.0045,
+        "ONEZONE_IA": 0.0099,
+        "REDUCED_REDUNDANCY": 0.0216,
+        "STANDARD": 0.0225,
+        "STANDARD_IA": 0.01242
+      },
+      "region": "ap-southeast-5",
+      "retrieved_at": "2026-10-19T09:57:57.191510+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-5/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-5/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-southeast-5/index.json"
+      ]
+    },
+    "ap-southeast-6": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0021,
+        "GLACIER": 0.004725,
+        "GLACIER_IR": 0.00525,
+        "ONEZONE_IA": 0.01155,
+        "REDUCED_REDUNDANCY": 0.02772,
+        "STANDARD": 0.02415,
+        "STANDARD_IA": 0.01449
+      },
+      "region": "ap-southeast-6",
+      "retrieved_at": "2026-10-19T09:57:58.284575+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-6/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-6/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-southeast-6/index.json"
+      ]
+    },
+    "ap-southeast-7": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.0045,
+        "ONEZONE_IA": 0.0099,
+        "REDUCED_REDUNDANCY": 0.0216,
+        "STANDARD": 0.0225,
+        "STANDARD_IA": 0.01242
+      },
+      "region": "ap-southeast-7",
+      "retrieved_at": "2026-10-19T09:57:59.547424+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-7/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ap-southeast-7/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ap-southeast-7/index.json"
+      ]
+    },
+    "ca-central-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01104,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ca-central-1",
+      "retrieved_at": "2026-10-19T09:58:00.663312+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ca-central-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ca-central-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ca-central-1/index.json"
+      ]
+    },
+    "ca-west-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01104,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "ca-west-1",
+      "retrieved_at": "2026-10-19T09:58:01.463043+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ca-west-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/ca-west-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/ca-west-1/index.json"
+      ]
+    },
+    "eu-central-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.0108,
+        "REDUCED_REDUNDANCY": 0.026,
+        "STANDARD": 0.0245,
+        "STANDARD_IA": 0.0135
+      },
+      "region": "eu-central-1",
+      "retrieved_at": "2026-10-19T09:58:02.052383+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-central-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-central-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-central-1/index.json"
+      ]
+    },
+    "eu-central-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.00198,
+        "GLACIER": 0.004455,
+        "GLACIER_IR": 0.0055,
+        "ONEZONE_IA": 0.01188,
+        "REDUCED_REDUNDANCY": 0.0286,
+        "STANDARD": 0.02695,
+        "STANDARD_IA": 0.01485
+      },
+      "region": "eu-central-2",
+      "retrieved_at": "2026-10-19T09:58:02.508682+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-central-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-central-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-central-2/index.json"
+      ]
+    },
+    "eu-north-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.00099,
+        "GLACIER": 0.0036,
+        "GLACIER_IR": 0.004,
+        "ONEZONE_IA": 0.01,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.023,
+        "STANDARD_IA": 0.0125
+      },
+      "region": "eu-north-1",
+      "retrieved_at": "2026-10-19T09:58:03.426699+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-north-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-north-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-north-1/index.json"
+      ]
+    },
+    "eu-south-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.0105,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.024,
+        "STANDARD_IA": 0.0131
+      },
+      "region": "eu-south-1",
+      "retrieved_at": "2026-10-19T09:58:04.258759+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-south-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-south-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-south-1/index.json"
+      ]
+    },
+    "eu-south-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.023,
+        "STANDARD_IA": 0.0125
+      },
+      "region": "eu-south-2",
+      "retrieved_at": "2026-10-19T09:58:05.047793+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-south-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-south-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-south-2/index.json"
+      ]
+    },
+    "eu-west-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.00099,
+        "GLACIER": 0.0036,
+        "GLACIER_IR": 0.004,
+        "ONEZONE_IA": 0.01,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.023,
+        "STANDARD_IA": 0.0125
+      },
+      "region": "eu-west-1",
+      "retrieved_at": "2026-10-19T09:58:05.785159+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-west-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-west-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-west-1/index.json"
+      ]
+    },
+    "eu-west-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01048,
+        "REDUCED_REDUNDANCY": 0.0252,
+        "STANDARD": 0.024,
+        "STANDARD_IA": 0.0131
+      },
+      "region": "eu-west-2",
+      "retrieved_at": "2026-10-19T09:58:06.294868+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-west-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-west-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-west-2/index.json"
+      ]
+    },
+    "eu-west-3": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01048,
+        "REDUCED_REDUNDANCY": 0.0252,
+        "STANDARD": 0.024,
+        "STANDARD_IA": 0.0131
+      },
+      "region": "eu-west-3",
+      "retrieved_at": "2026-10-19T09:58:06.831110+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-west-3/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/eu-west-3/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/eu-west-3/index.json"
+      ]
+    },
+    "il-central-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01104,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "il-central-1",
+      "retrieved_at": "2026-10-19T09:58:07.694752+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/il-central-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/il-central-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/il-central-1/index.json"
+      ]
+    },
+    "me-central-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01104,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "me-central-1",
+      "retrieved_at": "2026-10-19T09:58:08.555247+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/me-central-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/me-central-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/me-central-1/index.json"
+      ]
+    },
+    "me-south-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0018,
+        "GLACIER": 0.00405,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.01104,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.025,
+        "STANDARD_IA": 0.0138
+      },
+      "region": "me-south-1",
+      "retrieved_at": "2026-10-19T09:58:09.635803+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/me-south-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/me-south-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/me-south-1/index.json"
+      ]
+    },
+    "mx-central-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.00378,
+        "GLACIER_IR": 0.0042,
+        "ONEZONE_IA": 0.0105,
+        "REDUCED_REDUNDANCY": 0.0252,
+        "STANDARD": 0.02415,
+        "STANDARD_IA": 0.013125
+      },
+      "region": "mx-central-1",
+      "retrieved_at": "2026-10-19T09:58:10.904611+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/mx-central-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/mx-central-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/mx-central-1/index.json"
+      ]
+    },
+    "sa-east-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0032,
+        "GLACIER": 0.00765,
+        "GLACIER_IR": 0.0083,
+        "ONEZONE_IA": 0.0177,
+        "REDUCED_REDUNDANCY": 0.0326,
+        "STANDARD": 0.0405,
+        "STANDARD_IA": 0.0221
+      },
+      "region": "sa-east-1",
+      "retrieved_at": "2026-10-19T09:58:12.053056+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/sa-east-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/sa-east-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/sa-east-1/index.json"
+      ]
+    },
+    "us-east-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.00099,
+        "GLACIER": 0.0036,
+        "GLACIER_IR": 0.004,
+        "ONEZONE_IA": 0.01,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.023,
+        "STANDARD_IA": 0.0125
+      },
+      "region": "us-east-1",
+      "retrieved_at": "2026-10-19T09:58:12.683597+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-east-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-east-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/us-east-1/index.json"
+      ]
+    },
+    "us-east-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.00099,
+        "GLACIER": 0.0036,
+        "GLACIER_IR": 0.004,
+        "ONEZONE_IA": 0.01,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.023,
+        "STANDARD_IA": 0.0125
+      },
+      "region": "us-east-2",
+      "retrieved_at": "2026-10-19T09:58:13.569123+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-east-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-east-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/us-east-2/index.json"
+      ]
+    },
+    "us-gov-east-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0024,
+        "GLACIER": 0.0054,
+        "GLACIER_IR": 0.0064,
+        "ONEZONE_IA": 0.016,
+        "REDUCED_REDUNDANCY": 0.0312,
+        "STANDARD": 0.039,
+        "STANDARD_IA": 0.02
+      },
+      "region": "us-gov-east-1",
+      "retrieved_at": "2026-10-19T09:58:14.588850+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-gov-east-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-gov-east-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/us-gov-east-1/index.json"
+      ]
+    },
+    "us-gov-west-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.0024,
+        "GLACIER": 0.0054,
+        "GLACIER_IR": 0.0064,
+        "ONEZONE_IA": 0.016,
+        "REDUCED_REDUNDANCY": 0.0312,
+        "STANDARD": 0.039,
+        "STANDARD_IA": 0.02
+      },
+      "region": "us-gov-west-1",
+      "retrieved_at": "2026-10-19T09:58:15.356878+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-gov-west-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-gov-west-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/us-gov-west-1/index.json"
+      ]
+    },
+    "us-west-1": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.002,
+        "GLACIER": 0.0045,
+        "GLACIER_IR": 0.005,
+        "ONEZONE_IA": 0.0115,
+        "REDUCED_REDUNDANCY": 0.0264,
+        "STANDARD": 0.026,
+        "STANDARD_IA": 0.0144
+      },
+      "region": "us-west-1",
+      "retrieved_at": "2026-10-19T09:58:16.232919+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-west-1/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-west-1/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/us-west-1/index.json"
+      ]
+    },
+    "us-west-2": {
+      "basis": "Public on-demand first-volume-band storage rates; no account discounts.",
+      "currency": "USD",
+      "rates": {
+        "DEEP_ARCHIVE": 0.00099,
+        "GLACIER": 0.0036,
+        "GLACIER_IR": 0.004,
+        "ONEZONE_IA": 0.01,
+        "REDUCED_REDUNDANCY": 0.024,
+        "STANDARD": 0.023,
+        "STANDARD_IA": 0.0125
+      },
+      "region": "us-west-2",
+      "retrieved_at": "2026-10-19T09:58:17.356721+00:00",
+      "source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-west-2/index.json",
+      "sources": [
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3/current/us-west-2/index.json",
+        "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonS3GlacierDeepArchive/current/us-west-2/index.json"
+      ]
+    }
+  },
+  "schema_version": 1
+}
