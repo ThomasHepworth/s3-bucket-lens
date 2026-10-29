@@ -35,10 +35,10 @@ Requires [uv](https://docs.astral.sh/uv/), Python 3.11+ and an authenticated AWS
 
 ### Example
 
-Catalogue a bucket and generate an HTML dashboard:
+Catalogue a bucket and generate an HTML dashboard directly from GitHub. `uvx` downloads the project and its dependencies into an isolated, cached environment, so no clone or manual package installation is needed.
 
 ```sh
-uvx --no-cache --from . s3-bucket-lens catalogue my-bucket \
+uvx --from 'git+https://github.com/ThomasHepworth/s3-bucket-lens.git' s3-bucket-lens catalogue my-bucket \
   --profile my-profile \
   --region eu-west-1 \
   --output my-bucket.catalogue \
